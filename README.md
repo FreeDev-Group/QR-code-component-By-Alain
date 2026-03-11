@@ -40,7 +40,7 @@ project-folder/
 
 │ └── favicon-32x32.png
 
-└── image-qr-code.png
+  └── image-qr-code.png
 
 ├── custom-README-templete.md
 
