@@ -19,7 +19,7 @@ The objective is to recreate the QR Code Component layout using **Vanilla HTML a
 # Team
 
 Mentor : Salomon Mwilo
-Mentee : Alain Pierre
+Mentee : Alain Bahane Pierre
 
 ---
 
