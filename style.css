@@ -1,5 +1,68 @@
-/* Feel free to remove these styles or customise in your own stylesheet 👍 */
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  max-width: 320px;
+  text-align: center;
+
+  box-shadow: 0 20px 25px rgba(0,0,0,0.05);
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-text {
+  padding: 20px 10px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.4;
+}
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+   
+@media (min-width: 768px) {
+  .card {
+    max-width: 350px;
+  }
+}
