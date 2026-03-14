@@ -9,6 +9,7 @@ body {
   background-color: hsl(212, 45%, 89%);
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -50,8 +51,16 @@ p {
   color: hsl(220, 15%, 55%);
   line-height: 1.4;
 }
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
 
-/* Desktop */
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+   
 @media (min-width: 768px) {
   .card {
     max-width: 350px;
