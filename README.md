@@ -1,240 +1,41 @@
-# Development Guide – QR Code Component
+## What I learned
 
-This branch contains the **development workflow and contribution guidelines** for the Frontend Mentor QR Code Component Challenge.
+Through this project, I practiced building a simple responsive component using HTML and CSS. I learned how to center elements both vertically and horizontally using Flexbox, and how to structure my HTML and CSS with clear and descriptive class names.
 
-This project is part of the **FreeDev Pair Challenge Program**, where mentees collaborate with a mentor and learn professional GitHub practices.
+I also improved my understanding of responsive design by applying a mobile-first approach and using media queries to ensure the layout works well on different screen sizes.
 
----
+## Screenshot
 
-# Challenge Information
+![QR Code Component Screenshot](images/screenshot.jpg)
 
-Frontend Mentor Challenge:
+## Challenges encountered
 
-https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
+One of the main challenges was keeping the card perfectly centered on both mobile and desktop screens. Another challenge was positioning the attribution text below the card while keeping the overall layout balanced.
 
-The objective is to recreate the QR Code Component layout using **Vanilla HTML and CSS**.
+To solve this, I used Flexbox with `flex-direction: column` and adjusted the layout using media queries until the design matched the expected result.
 
----
+## Improvements for future projects
 
-# Team
+If I revisit this project in the future, I would like to improve the semantic structure of the HTML by using elements such as `<figure>` and `<figcaption>`. I would also consider adding small animations or transitions to make the component more interactive.
 
-Mentor : Salomon Mwilo
-Mentee : Alain Bahane Pierre
+Finally, I would refine the organization of my CSS to make the code even cleaner and easier to maintain for larger projects.
 
----
+### AI Collaboration
 
-# Technologies
+During this project, I used ChatGPT as a learning assistant. It helped me clarify best practices for structuring HTML and CSS, organizing the project files, and drafting parts of this README. It was particularly helpful for understanding responsive layouts and how to correctly place the attribution section.
 
-This project must be built using:
+## Project Context
 
-- HTML5
-- CSS3
-- Git & GitHub
+This project is my solution to the **Frontend Mentor "QR Code Component" challenge**.
 
-Not allowed:
+The goal of the challenge is to recreate a QR code card component based on a provided design. It focuses on practicing core frontend skills such as writing clean HTML, styling with CSS, and building a responsive layout that works across different screen sizes.
 
-- React
-- Vue
-- CSS frameworks
-- JavaScript frameworks
+## Author
 
-The goal is to **master the fundamentals**.
+- Frontend Mentor – [@AlainBahane](https://www.frontendmentor.io/profile/@alainbahanep)
+- GitHub – [@AlainBahane](https://github.com/alainbahanep)
 
----
+## Live Project
 
-# Project Structure
-
-```
-
-project-folder/
-
-│
-
-├── index.html
-
-├── css
-
-├── images/
-
-    └── favicon-32x32.png
-    └── image-qr-code.png
-
-├── custom-README-templete.md
-
-└── README.md
-
-```
-
----
-
-# Branch Strategy
-
-This project uses two branches.
-
-### main
-Contains the **stable version** of the project.
-
-### develop
-Used for **active development and contributions**.
-
-All work should be done in `develop`.
-
----
-
-# Development Workflow
-
-The workflow follows these steps.
-
-```
-GitHub Issue
-↓
-Implement the task
-↓
-Commit the code
-↓
-Push to GitHub
-↓
-Open Pull Request
-↓
-Code Review by Mentor
-↓
-Merge
-
-```
-
----
-
-# Working with Issues
-
-All tasks are managed through **GitHub Issues**.
-
-Each issue contains:
-
-- a description of the task
-- specific instructions
-- expected result
-
-Example issues:
-
-```
-
-Issue #1 – Setup project structure
-Issue #2 – Create HTML layout
-Issue #3 – Implement CSS styling
-Issue #4 – Make the layout responsive
-Issue #5 – Final polish
-
-```
-
-You should always reference the issue number when committing.
-
----
-
-# Commit Message Guidelines
-
-Commit messages must be clear and descriptive.
-
-Examples:
-
-```
-
-feat: add HTML structure #2
-style: implement card layout #3
-fix: correct image alignment #3
-
-```
-
-Avoid vague commits such as:
-
-```
-
-update
-changes
-fix
-
-```
-
----
-
-# Daily Push Requirement
-
-Mentees are expected to:
-
-- work on the project daily
-- push their progress to GitHub
-- keep commits small and descriptive
-
-Consistency is essential for learning.
-
----
-
-# Code Review
-
-All code will be reviewed by the mentor.
-
-The mentor may comment on:
-
-- HTML structure
-- CSS techniques
-- code readability
-- responsiveness
-- best practices
-
-You should improve your code based on feedback.
-
----
-
-# Deployment
-
-Once the challenge is completed, the project should be deployed using **GitHub Pages**.
-
-The deployed project link will be added to the main README.
-
----
-
-# Learning Objective
-
-This challenge helps mentees practice:
-
-- semantic HTML
-- CSS layout techniques
-- responsive design
-- GitHub collaboration
-- professional coding workflow
-
----
-
-# Mentorship
-
-This project is part of the **A-Team mentorship structure** where mentees work closely with a mentor to improve their development skills.
-
-The mentor provides:
-
-- technical guidance
-- code reviews
-- improvement suggestions
-
----
-
-# Communication
-
-Technical discussions and questions should be posted in the **GitHub Discussions** section of this repository.
-
-This helps document the learning process and keeps communication organized.
-
----
-
-# Final Project Reflection
-
-At the end of the project, the mentee will complete the file:
-
-custom-README-template.md
-
-This file will allow the mentee to document:
-
-- what they learned
-- challenges encountered
-- solutions they implemented
-- reflections about the development process
-
-This step is important because documenting your work is a key skill for professional developers.
+You can view the deployed project here:  
+https://freedev-group.github.io/QR-code-component-By-Alain/
