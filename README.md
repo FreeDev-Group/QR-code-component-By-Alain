@@ -32,8 +32,8 @@ The goal of the challenge is to recreate a QR code card component based on a pro
 
 ## Author
 
-- Frontend Mentor – [@AlainBahane](https://www.frontendmentor.io/profile/AlainBahane)
-- Twitter – [@AlainBahane](https://www.twitter.com/AlainBahane)
+- Frontend Mentor – [@AlainBahane](https://www.frontendmentor.io/profile/@alainbahanep)
+- GitHub – [@AlainBahane](https://github.com/alainbahanep)
 
 ## Live Project
 
